@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang = "en">
+	<head>
+		<link rel="stylesheet" type="text/css" href= "stylesheet.css" />
+		<meta charset="utf-8">
+		<title> $title </title>
+	</head>
+	<body>
+
+		<div id="wrapper">
+			
+			<header>
+				Database Design
+			</header>
+
+			<nav>
+				<p><strong> Web Quiz </strong></p>
+				<p> <a href="login.py"> Refresh </a> </p>
+			</nav>
+
+			<section>
+				
+				<p><strong> Please Log In </strong></p>
+				<p> Enter your name and e-mail below: </p> 
+
+				<form action="quiz.py" method="GET">
+					<div class = "row">
+						<label for="nameInput"> Name: </label>
+						<input type="name" id="name" name="name" placeholder = "Full Name" />
+						<div class="clearfix"></div>
+					</div>
+					<p></p>
+					<div class="row">
+						<label for="mailInput"> E-Mail: </label>
+						<input type="email" id="mail" name="mail" placeholder = "Enter your e-mail here" />
+						<div class="clearfix"></div>
+					</div>
+					<p></p>
+					<div class = "row">
+						<label for='submitInput'>  </label>
+                        <input type="submit" id='submit' value= "Log In" />
+                     	<div class="clearfix"></div>
+					</div>
+				</form>
+
+ 			</section>
+
+ 			<div class="clear"></div>
+ 
+ 			<footer>
+ 				<p>Mark Chen <br> Spring 2018</p>
+ 			</footer>
+ 
+ 		</div>
+ 	</body>
+ </html>

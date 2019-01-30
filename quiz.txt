@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang = "en">
+	<head>
+		<link rel="stylesheet" type="text/css" href= "stylesheet.css" />
+		<meta charset="utf-8">
+		<title> Database Design </title>
+	</head>
+	<body>
+
+		<div id="wrapper">
+			
+			<header>
+				Database Design
+			</header>
+
+			<nav>
+				<p><strong> Web App </strong></p>
+				<p> <a href="quiz.py"> Refresh </a> </p>
+			</nav>
+
+			<section>
+				
+				<p><strong> $quiz </strong></p>
+				<p> Please answer all questions. </p> 
+				<form action="quiz.py" method="GET">
+
+					<div class = "row">
+          <label for="crudInput"> What year was the iPhone first released? </label>
+          <p></p>
+            <select id="crudInput" name="q1">
+                            <option value="2006"> 2006 </option> 
+                            <option value="2007"> 2007 </option> 
+                            <option value="2008"> 2008 </option> 
+                            <option value="2009"> 2009 </option> 
+                            <option value="2010"> 2010 </option>
+                      </select>
+                     </div>
+                     <p></p>
+
+                    <div class = "row">
+          <label for="crudInput"> Which country is not a part of NATO? </label>
+          <p></p>
+            <select id="crudInput" name="q2">
+                            <option value="USA"> USA </option> 
+                            <option value="South Korea"> South Korea </option> 
+                            <option value="Italy"> Italy </option> 
+                            <option value="France"> France </option> 
+                            <option value="Spain"> Spain </option>
+                      </select>
+                     </div>
+                     <p></p>
+
+                    <div class = "row">
+          <label for="crudInput"> When did Hawaii acquire statehood? </label>
+          <p></p>
+            <select id="crudInput" name="q3">
+                            <option value="1946"> 1946 </option> 
+                            <option value="1949"> 1949 </option> 
+                            <option value="1951"> 1951 </option> 
+                            <option value="1959"> 1959 </option> 
+                            <option value="1970"> 1970 </option>
+                      </select>
+                     </div>
+                     <p></p>
+
+                     <div class = "row">
+          <label for="crudInput"> What is the latest MacOS Operating System version? </label>
+          <p></p>
+            <select id="crudInput" name="q4">
+                            <option value="Cheetah"> Cheetah </option> 
+                            <option value="Yosemite"> Yosemite </option> 
+                            <option value="Leopard"> Leopard </option> 
+                            <option value="High Sierra"> High Sierra </option> 
+                            <option value="Mavericks"> Mavericks </option>
+                      </select>
+                     </div>
+                     <p></p>
+
+                    <div class = "row">
+          <label for="crudInput"> What is the capital of Australia? </label>
+          <p></p>
+            <select id="crudInput" name="q5">
+                            <option value="Canberra"> Canberra </option> 
+                            <option value="Sydney"> Sydney </option> 
+                            <option value="Melbourne"> Melbourne </option> 
+                            <option value="Brisbane"> Brisbane </option> 
+                            <option value="Perth"> Perth </option>
+                      </select>
+                     </div>
+                     <p></p>
+
+                     <div class = "row">
+          <label for="crudInput"> Which person is still alive today? </label>
+          <p></p>
+            <select id="crudInput" name="q6">
+                            <option value="Mikhail Gorbachev"> Mikhail Gorbachev </option> 
+                            <option value="Charles de Gaulle"> Charles de Gaulle </option> 
+                            <option value="Genghis Khan"> Genghis Khan </option> 
+                            <option value="Franklin D. Roosevelt"> Franklin D. Roosevelt </option> 
+                            <option value="Winston Churchill"> Winston Churchill </option>
+                      </select>
+                     </div>
+                     <p></p>
+
+                    <div class = "row">
+          <label for="crudInput"> How far away is Mars? </label>
+          <p></p>
+            <select id="crudInput" name="q7">
+                            <option value="54.6 Million km"> 54.6 Million km </option> 
+                            <option value="10.3 Million km"> 10.3 Million km </option> 
+                            <option value="90.5 Million km"> 90.5 Million km </option> 
+                            <option value="34.5 Million km"> 34.5 Million km </option> 
+                            <option value="50.3 Million km"> 50.3 Million km </option>
+                      </select>
+                     </div>
+                     <p></p>
+
+                    <div class = "row">
+          <label for="crudInput"> When were the Voyager probes launched? </label>
+          <p></p>
+            <select id="crudInput" name="q8">
+                            <option value="1980"> 1980 </option> 
+                            <option value="1994"> 1994 </option> 
+                            <option value="2004"> 2004 </option> 
+                            <option value="1977"> 1977 </option> 
+                            <option value="1973"> 1973 </option>
+                      </select>
+                     </div>
+                     <p></p>
+
+                     <div class = "row">
+          <label for="crudInput"> Which artist painted "Nighthawks"? </label>
+          <p></p>
+            <select id="crudInput" name="q9">
+                            <option value="Jacob Lawrence"> Jacob Lawrence </option> 
+                            <option value="Robert Henri"> Robert Henri </option> 
+                            <option value="Edward Hopper"> Edward Hopper </option> 
+                            <option value="Andy Warhol"> Andy Warhol </option> 
+                            <option value="Salvador Dali"> Salvador Dali </option>
+                      </select>
+                     </div>
+                     <p></p>
+
+                    <div class = "row">
+          <label for="crudInput"> How many boroughs are there in New York City? </label>
+          <p></p>
+            <select id="crudInput" name="q10">
+                            <option value="3"> 3 </option> 
+                            <option value="4"> 4 </option> 
+                            <option value="5"> 5 </option> 
+                            <option value="6"> 6 </option> 
+                            <option value="7"> 7 </option>
+                      </select>
+                     </div>
+                     <p></p>
+
+          <div class = "row">
+            <label for='submitInput'>  </label>
+                        <input type="submit" id='submit' value= "Submit Answers" />
+                      <div class="clearfix"></div>
+          </div>
+        </form>
+
+ 			</section>
+
+ 			<div class="clear"></div>
+ 
+ 			<footer>
+ 				<p>Mark Chen <br> Spring 2018</p>
+ 			</footer>
+ 
+ 		</div>
+ 	</body>
+ </html>

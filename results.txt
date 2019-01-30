@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang = "en">
+  <head>
+    <link rel="stylesheet" type="text/css" href= "stylesheet.css" />
+    <meta charset="utf-8">
+    <title> Database Design </title>
+  </head>
+  <body>
+
+    <div id="wrapper">
+      
+      <header>
+        Database Design
+      </header>
+
+      <nav>
+        <p><strong> Web Quiz </strong></p>
+        <p> <a href="login.py"> Refresh </a> </p>
+      </nav>
+
+      <section>
+        
+        <p><strong> Your Results </strong></p>
+        <p> You got $percent percent of the questions correct. The answer key is below: </p> 
+
+          <div class = "row">
+          <label for="crudInput"> 1) What year was the iPhone first released? </label>
+          <p> Your answer: $a1 </p>
+          <p> Correct answer: 2007 </p>
+                     <p></p>
+
+                    <div class = "row">
+          <label for="crudInput"> 2) Which country is not a part of NATO? </label>
+          <p> Your answer: $a2 </p>
+          <p> Correct answer: South Korea </p>
+                     <p></p>
+
+                    <div class = "row">
+          <label for="crudInput"> 3) When did Hawaii acquire statehood? </label>
+          <p> Your answer: $a3 </p>
+          <p> Correct answer: 1959 </p>
+                     <p></p>
+
+                     <div class = "row">
+          <label for="crudInput"> 4) What is the latest MacOS Operating System version? </label>
+          <p> Your answer: $a4 </p>
+          <p> Correct answer: High Sierra </p>
+                     <p></p>
+
+                    <div class = "row">
+          <label for="crudInput"> 5) What is the capital of Australia? </label>
+          <p> Your answer: $a5 </p>
+          <p> Correct answer: Canberra </p>
+                     <p></p>
+
+                     <div class = "row">
+          <label for="crudInput"> 6) Which person is still alive today? </label>
+          <p> Your answer: $a6 </p>
+          <p> Correct answer: Mikhail Gorbachev </p>
+                     <p></p>
+
+                    <div class = "row">
+          <label for="crudInput"> 7) How far away is Mars? </label>
+          <p> Your answer: $a7 </p>
+          <p> Correct answer: 54.6 Million km </p>
+                     <p></p>
+
+                    <div class = "row">
+          <label for="crudInput"> 8) When were the Voyager probes launched? </label>
+          <p> Your answer: $a8 </p>
+          <p> Correct answer: 1977 </p>
+                     <p></p>
+
+                     <div class = "row">
+          <label for="crudInput"> 9) Which artist painted "Nighthawks"? </label>
+          <p> Your answer: $a9 </p>
+          <p> Correct answer: Edward Hopper </p>
+                     <p></p>
+
+                    <div class = "row">
+          <label for="crudInput"> 10) How many boroughs are there in New York City? </label>
+          <p> Your answer: $a10 </p>
+          <p> Correct answer: 5 </p>
+                     <p> </p>
+
+        </form>
+      </section>
+
+      <div class="clear"></div>
+ 
+      <footer>
+        <p>Mark Chen <br> Spring 2018</p>
+      </footer>
+ 
+    </div>
+  </body>
+ </html>
